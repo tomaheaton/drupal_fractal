@@ -31,6 +31,6 @@ component-libraries:
   molecules:
     paths:
       - assets/src/components/10-molecules
-  globals:
+  organisms:
     paths:
-      - assets/src/components/15-globals
+      - assets/src/components/15-organisms
