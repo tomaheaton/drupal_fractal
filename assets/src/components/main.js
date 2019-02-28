@@ -1,6 +1,6 @@
 import domready from 'domready';
-import test from './atoms/example/example';
+import Example from './05-atoms/example/example';
 
 domready(() => {
-  test();
+  Example();
 });
