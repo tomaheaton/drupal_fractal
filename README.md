@@ -22,7 +22,7 @@ lando drush cr
 ### Static patterns
 
 * Static pattern are developed in [Fractal](https://fractal.build/) using the
-  [Twig][twig] templating language.
+  [Twig](https://twig.symfony.com/) templating language.
 * [Webpack](https://webpack.js.org/) is used to compile assets into single files.
 
 
