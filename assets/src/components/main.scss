@@ -1,5 +1,4 @@
-body {
-  color: red;
-}
-
-@import 'atoms/example/example';
+@import '00-base/index';
+@import '05-atoms/index';
+@import '10-molecules/index';
+@import '15-organisms/index';

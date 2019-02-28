@@ -2,4 +2,4 @@
 title: Startup
 ---
 
-Hi, this is your index page. You can edit its contents at `docs/01-index.hbs`
+You can edit this page at `docs/01-index.hbs`
