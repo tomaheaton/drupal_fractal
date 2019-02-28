@@ -7,7 +7,7 @@ A Drupal starter theme using Fractal.
 ### Fractal setup
 * Run `npm install` to get the development dependencies.
 * For the most part, you'll now want to run `npm start` to start
-  [Webpack][webpack] and [Fractal][fractal].
+  [Webpack](https://webpack.js.org/) and [Fractal](https://fractal.build/).
 
 ### Using Fractal with Drupal 
 You'll need to install components so Drupal can access files in Fractal
@@ -21,9 +21,9 @@ lando drush cr
 
 ### Static patterns
 
-* Static pattern are developed in [Fractal][fractal] using the
+* Static pattern are developed in [Fractal](https://fractal.build/) using the
   [Twig][twig] templating language.
-* [Webpack][webpack] is used to compile assets into single files.
+* [Webpack](https://webpack.js.org/) is used to compile assets into single files.
 
 
 ## NPM scripts
@@ -55,7 +55,7 @@ Common tasks are also documented below.
 ### Stylesheet guidelines
 > This divergence still needs discussing with a front end TTL or SEM.
 
-We are using the [`stylelint-config-standard`][stylelint-config-standard] Stylelint
+We are using the [`stylelint-config-standard`](https://github.com/stylelint/stylelint-config-standard) Stylelint
 plugin.
 
 ### Airbnb code standards
