@@ -1,0 +1,36 @@
+name: Drupal & Fractal
+type: theme
+description: 'A drupal theme with Fractal'
+core: 8.x
+base theme: stable
+
+libraries:
+  - drupal-fractal/global
+
+regions:
+  hero: 'Hero'
+  header: Header
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  highlighted: Highlighted
+  featured_top: 'Featured top'
+  breadcrumb: Breadcrumb
+  content: Content
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+
+stylesheets-remove:
+  - '@stable/css/system/components/align.module.css'
+
+component-libraries:
+  atoms:
+    paths:
+      - assets/src/components/atoms
+  molecules:
+    paths:
+      - assets/src/components/molecules
+  globals:
+    paths:
+      - assets/src/components/globals

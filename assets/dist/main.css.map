@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./assets/src/components/main.scss"],"names":[],"mappings":"AAAA,KAAK,UAAU,SAAS,Y","file":"main.css","sourcesContent":["body{color:red}.example{color:green}"],"sourceRoot":""}

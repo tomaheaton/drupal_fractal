@@ -1,0 +1,7 @@
+global:
+  version: VERSION
+  css:
+    base:
+      assets/dist/main.css: {}
+  js:
+    assets/dist/main.js: {}
