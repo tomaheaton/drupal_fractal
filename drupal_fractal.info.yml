@@ -27,10 +27,10 @@ stylesheets-remove:
 component-libraries:
   atoms:
     paths:
-      - assets/src/components/atoms
+      - assets/src/components/05-atoms
   molecules:
     paths:
-      - assets/src/components/molecules
+      - assets/src/components/10-molecules
   globals:
     paths:
-      - assets/src/components/globals
+      - assets/src/components/15-globals
