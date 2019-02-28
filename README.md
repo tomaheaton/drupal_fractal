@@ -5,8 +5,8 @@ A Drupal starter theme using Fractal.
 
 ## Getting started
 ### Fractal setup
-* Run `yarn install` to get the development dependencies.
-* For the most part, you'll now want to run `yarn start` to start
+* Run `npm install` to get the development dependencies.
+* For the most part, you'll now want to run `npm start` to start
   [Webpack][webpack] and [Fractal][fractal].
 
 ### Using Fractal with Drupal 
@@ -26,13 +26,13 @@ lando drush cr
 * [Webpack][webpack] is used to compile assets into single files.
 
 
-## Yarn scripts
+## NPM scripts
 
-The project provides an abundance of Yarn scripts to perform various tasks. They
+The project provides an abundance of NPM scripts to perform various tasks. They
 are documented below.
 
-Scripts can be run with the command `Yarn run SCRIPTNAME` with the exception of
-`start` which can simply be run with `Yarn start`.
+Scripts can be run with the command `npm run SCRIPTNAME` with the exception of
+`start` which can simply be run with `npm start`.
 
 Common tasks are also documented below.
 

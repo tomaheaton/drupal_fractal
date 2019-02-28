@@ -6,15 +6,15 @@
   "scripts": {
     "start:fractal": "fractal start",
     "start:webpack": "webpack -w",
-    "start": "concurrently -c \"black.bgCyan.bold,black.bgMagenta.bold\" \"yarn:start:webpack\" \"yarn:start:fractal\"",
-    "prebuild:fractal": "yarn run build:webpack",
+    "start": "concurrently -c \"black.bgCyan.bold,black.bgMagenta.bold\" \"npm:start:webpack\" \"npm:start:fractal\"",
+    "prebuild:fractal": "npm run build:webpack",
     "build:fractal": "fractal build",
     "build:webpack": "NODE_ENV=production webpack",
-    "prebuild": "yarn run lint",
-    "build": "yarn run build:fractal",
+    "prebuild": "npm run lint",
+    "build": "npm run build:fractal",
     "lint:styles": "stylelint \"./assets/src/components/**/*.scss\"",
     "lint:scripts": "eslint assets/src --format=node_modules/eslint-codeframe-formatter",
-    "lint": "yarn run lint:styles && yarn run lint:scripts"
+    "lint": "npm run lint:styles && npm run lint:scripts"
   },
   "contributors": [
     {

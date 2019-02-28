@@ -86,27 +86,14 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./assets/src/components/atoms/example/example.js":
-/*!********************************************************!*\
-  !*** ./assets/src/components/atoms/example/example.js ***!
-  \********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (function () {});\n\n//# sourceURL=webpack:///./assets/src/components/atoms/example/example.js?");
-
-/***/ }),
-
 /***/ "./assets/src/components/main.js":
 /*!***************************************!*\
   !*** ./assets/src/components/main.js ***!
   \***************************************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/*! no static exports found */
+/***/ (function(module, exports) {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var domready__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! domready */ \"./node_modules/domready/ready.js\");\n/* harmony import */ var domready__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(domready__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _atoms_example_example__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./atoms/example/example */ \"./assets/src/components/atoms/example/example.js\");\n\n\ndomready__WEBPACK_IMPORTED_MODULE_0___default()(function () {\n  Object(_atoms_example_example__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n});\n\n//# sourceURL=webpack:///./assets/src/components/main.js?");
+eval("throw new Error(\"Module build failed (from ./node_modules/eslint-loader/index.js):\\nError: Cannot find module 'eslint-config-prettier'\\nReferenced from: /Users/theaton/Sites/drupal_fractal/.eslintrc.json\\n    at ModuleResolver.resolve (/Users/theaton/Sites/drupal_fractal/node_modules/eslint/lib/util/module-resolver.js:72:19)\\n    at resolve (/Users/theaton/Sites/drupal_fractal/node_modules/eslint/lib/config/config-file.js:507:28)\\n    at load (/Users/theaton/Sites/drupal_fractal/node_modules/eslint/lib/config/config-file.js:579:26)\\n    at configExtends.reduceRight (/Users/theaton/Sites/drupal_fractal/node_modules/eslint/lib/config/config-file.js:453:36)\\n    at Array.reduceRight (<anonymous>)\\n    at applyExtends (/Users/theaton/Sites/drupal_fractal/node_modules/eslint/lib/config/config-file.js:431:26)\\n    at loadFromDisk (/Users/theaton/Sites/drupal_fractal/node_modules/eslint/lib/config/config-file.js:551:22)\\n    at Object.load (/Users/theaton/Sites/drupal_fractal/node_modules/eslint/lib/config/config-file.js:587:20)\\n    at Config.getLocalConfigHierarchy (/Users/theaton/Sites/drupal_fractal/node_modules/eslint/lib/config.js:240:44)\\n    at Config.getConfigHierarchy (/Users/theaton/Sites/drupal_fractal/node_modules/eslint/lib/config.js:192:43)\\n    at Config.getConfigVector (/Users/theaton/Sites/drupal_fractal/node_modules/eslint/lib/config.js:299:21)\\n    at Config.getConfig (/Users/theaton/Sites/drupal_fractal/node_modules/eslint/lib/config.js:342:29)\\n    at processText (/Users/theaton/Sites/drupal_fractal/node_modules/eslint/lib/cli-engine.js:181:33)\\n    at CLIEngine.executeOnText (/Users/theaton/Sites/drupal_fractal/node_modules/eslint/lib/cli-engine.js:690:40)\\n    at lint (/Users/theaton/Sites/drupal_fractal/node_modules/eslint-loader/index.js:263:17)\\n    at transform (/Users/theaton/Sites/drupal_fractal/node_modules/eslint-loader/index.js:237:18)\\n    at /Users/theaton/Sites/drupal_fractal/node_modules/loader-fs-cache/index.js:127:18\\n    at ReadFileContext.callback (/Users/theaton/Sites/drupal_fractal/node_modules/loader-fs-cache/index.js:31:14)\\n    at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:235:13)\");\n\n//# sourceURL=webpack:///./assets/src/components/main.js?");
 
 /***/ }),
 
@@ -118,17 +105,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var domr
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./assets/src/components/main.scss?");
-
-/***/ }),
-
-/***/ "./node_modules/domready/ready.js":
-/*!****************************************!*\
-  !*** ./node_modules/domready/ready.js ***!
-  \****************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("/*!\n  * domready (c) Dustin Diaz 2014 - License MIT\n  */\n!function (name, definition) {\n\n  if (true) module.exports = definition()\n  else {}\n\n}('domready', function () {\n\n  var fns = [], listener\n    , doc = document\n    , hack = doc.documentElement.doScroll\n    , domContentLoaded = 'DOMContentLoaded'\n    , loaded = (hack ? /^loaded|^c/ : /^loaded|^i|^c/).test(doc.readyState)\n\n\n  if (!loaded)\n  doc.addEventListener(domContentLoaded, listener = function () {\n    doc.removeEventListener(domContentLoaded, listener)\n    loaded = 1\n    while (listener = fns.shift()) listener()\n  })\n\n  return function (fn) {\n    loaded ? setTimeout(fn, 0) : fns.push(fn)\n  }\n\n});\n\n\n//# sourceURL=webpack:///./node_modules/domready/ready.js?");
 
 /***/ }),
 
