@@ -32,8 +32,6 @@ fractal.web.set('static.mount', '/assets');
 /* BROWSERSYNC */
 
 fractal.web.set('server.sync', true);
-fractal.web.set('static.path', path.join(__dirname, '/dist'));
-fractal.web.set('static.mount', '/assets');
 fractal.web.set('builder.dest', path.join(__dirname, '/build'));
 
 /*
