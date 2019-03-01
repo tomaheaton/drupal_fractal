@@ -9,5 +9,8 @@
   "rules": {
     "import/no-extraneous-dependencies": false,
     "space-before-function-paren": 0
+  },
+  "globals": {
+    "Drupal": true
   }
 }

@@ -9,10 +9,7 @@ const prodMode = process.env.NODE_ENV === 'production';
 
 module.exports = {
   entry: {
-    main: [
-      './assets/src/components/main.scss',
-      './assets/src/components/main.js'
-    ]
+    main: ['./components/src/main.scss', './components/src/main.js']
   },
   mode: prodMode ? 'production' : 'development',
   output: {

@@ -16,12 +16,12 @@ fractal.set('project.title', 'Startup');
 /*
  * Tell Fractal where to look for components.
  */
-fractal.components.set('path', path.join(__dirname, 'assets/src/components'));
+fractal.components.set('path', path.join(__dirname, 'components/src'));
 
 /*
  * Tell Fractal where to look for documentation pages.
  */
-fractal.docs.set('path', path.join(__dirname, 'assets/src/docs'));
+fractal.docs.set('path', path.join(__dirname, 'components/docs'));
 
 /*
  * Tell the Fractal web preview plugin where to look for static assets.
@@ -30,7 +30,6 @@ fractal.web.set('static.path', path.join(__dirname, 'assets/dist'));
 fractal.web.set('static.mount', '/assets');
 
 /* BROWSERSYNC */
-
 fractal.web.set('server.sync', true);
 fractal.web.set('builder.dest', path.join(__dirname, '/build'));
 

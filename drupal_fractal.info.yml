@@ -20,17 +20,3 @@ regions:
   content: Content
   sidebar_first: 'Sidebar first'
   sidebar_second: 'Sidebar second'
-
-stylesheets-remove:
-  - '@stable/css/system/components/align.module.css'
-
-component-libraries:
-  atoms:
-    paths:
-      - assets/src/components/05-atoms
-  molecules:
-    paths:
-      - assets/src/components/10-molecules
-  organisms:
-    paths:
-      - assets/src/components/15-organisms
